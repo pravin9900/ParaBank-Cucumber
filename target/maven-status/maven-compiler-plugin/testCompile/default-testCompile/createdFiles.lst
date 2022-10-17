@@ -1,0 +1,3 @@
+com\parabank\stepDefinations\LoginSteps.class
+com\parabank\runner\TestRunner.class
+com\parabank\stepDefinations\RegistrationSteps.class

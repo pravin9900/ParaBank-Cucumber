@@ -1,0 +1,9 @@
+com\parabank\pages\RegistrationPage.class
+com\parabank\Utility\SeleniumWebElements.class
+com\parabank\pages\LoginPage.class
+com\parabank\pages\HomePage.class
+com\parabank\configuration\TestConfig.class
+com\parabank\configuration\PageConfiguration.class
+com\parabank\dataReader\ReadFile.class
+com\parabank\drivers\BaseTest.class
+com\parabank\Utility\SeleniumDriverActions.class

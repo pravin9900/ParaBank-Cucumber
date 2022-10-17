@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="22.295">
+    <testcase classname="Register as a new user to parabank" name="Register as a new user to parabank." time="15.755">
+        <system-out><![CDATA[Given open chrome driver browser and launch the parabank url................passed
+When I entered valid data in text field.....................................passed
+And I clicked on Register button............................................passed
+And I Verified that the user is logged in parabank account..................passed
+Then I clicked on Log out button............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Register as a new user to parabank" name="Login with parabank valid username and valid password" time="1.573">
+        <system-out><![CDATA[Given open chrome driver browser and launch the parabank url................passed
+When I entered username "raman1" & password "pass@123"......................passed
+And I click on Login button.................................................passed
+Then Verify user is  "invalid" user of parabank.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Register as a new user to parabank" name="Login with parabank valid username and valid password 2" time="1.494">
+        <system-out><![CDATA[Given open chrome driver browser and launch the parabank url................passed
+When I entered username "raman1234" & password "pass12".....................passed
+And I click on Login button.................................................passed
+Then Verify user is  "invalid" user of parabank.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Register as a new user to parabank" name="Login with parabank valid username and valid password 3" time="3">
+        <system-out><![CDATA[Given open chrome driver browser and launch the parabank url................passed
+When I entered username "raman1234" & password "pass@123"...................passed
+And I click on Login button.................................................passed
+Then Verify user is  "valid" user of parabank...............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
