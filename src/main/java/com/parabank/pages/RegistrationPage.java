@@ -71,6 +71,7 @@ public class RegistrationPage extends PageConfiguration {
 		SeleniumWebElements.enterInputIntoElement(userName, ReadFile.readPropertiesFile("userName"));
 		SeleniumWebElements.enterInputIntoElement(password, ReadFile.readPropertiesFile("password"));
 		SeleniumWebElements.enterInputIntoElement(confirmPass, ReadFile.readPropertiesFile("confirmPass"));
+		System.out.println("Registration Successful..");
 	}
 
 }
